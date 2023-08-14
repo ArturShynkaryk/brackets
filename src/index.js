@@ -1,5 +1,6 @@
 module.exports = function check(str, bracketsConfig) {
- var stack = [];
+    // your solution
+    var stack = [];
 
     var lenstr = str.length;
     if (lenstr % 2 != 0) return false;
@@ -54,4 +55,3 @@ module.exports = function check(str, bracketsConfig) {
     }
     return (stack.length === 0);
 };
-}
